@@ -1,0 +1,12 @@
+/* index.css */
+/* style sheet of /index.html */
+
+html {
+  background: #356;
+  color: lightcyan;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+}

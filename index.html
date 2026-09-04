@@ -41,6 +41,11 @@ a:active {
       <a href="/contact">Contact</a>
       <a href="/about">About</a>  <!-- TODO: links need rework -->
     </div>
+    <select id="language">
+  <option value="en">English</option>
+  <option value="de">Deutsch</option>
+  <option value="tr">T&#252;rk&#231;e</option>
+</select>
     <h1 style="text-align:center;">
       Distroless
     </h1>
@@ -48,13 +53,21 @@ a:active {
       Recommend less distros.
     </p>
     <br>
-    <h2 style="text-align:center;font-size:2.4em;">
+    <h2 data-lang="en" style="text-align:center;font-size:2.4em;">
       Are You Having a Hard Time Chosing <br>
       <span style="color:darkred;font-size:1.6em;">
         the <i style="color:red;">
         Right </i>
         Distro?
       </span>
+    </h2>
+    <h2 data-lang="tr" style="text-align:center;font-size:2.4em;">
+      <span style="color:darkred;font-size:1.6em;">
+        <i style="color:red;"> Do&#287;ru
+        </i>
+        Distroyu se&#231;mekte
+      </span> <br>
+      Zorlan&#305;yor musun?
     </h2>
     <h2 style="font-size:1.6em;">
       Are You not Sure Which Distro is the <i> Best</i>? <br>
@@ -78,5 +91,6 @@ a:active {
       Click <a style="color=green;" href="/catalog">here</a> Start Now.
     </h2>
     </div>
+    <script src="translate.js"></script>
   </body>
 </html>
